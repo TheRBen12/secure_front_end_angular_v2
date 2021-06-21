@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {HttpClient, HttpHeaders} from '@angular/common/http';
+import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {urlpatterns} from '../urls/urls';
 import {Router} from '@angular/router';
@@ -26,7 +26,7 @@ export class AuthenticationService {
       localStorage.setItem('accessToken', String(accountToken));
       localStorage.setItem('c_uid', user.dataValues.id);
     }else{
-      sessionStorage.setItem('c_uid', user.id);
+      sessionStorage.setItem('c_uid', user.dataValues.id);
     }
     this.authenticated = true;
   }

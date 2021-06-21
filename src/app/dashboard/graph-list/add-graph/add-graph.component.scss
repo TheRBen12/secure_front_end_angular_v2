@@ -1,0 +1,12 @@
+@import "src/styleguide/buttons";
+
+
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-add{
+  background-color: $button-background-color;
+}

@@ -1,0 +1,52 @@
+<div class="register-form">
+  <mat-card class="card">
+    <img class="float-right" src="assets/icons/dashboard/loro_logo.png">
+    <h1><strong>Registration</strong></h1>
+    <form (ngSubmit)="saveUser(registerForm.value)"  [formGroup]="registerForm" class="form">
+      <div>
+        <mat-form-field class="form-field">
+          <input formControlName="firstName" placeholder="Gib hier deinen Vornamen ein" matInput required>
+          <mat-error *ngIf="!registerForm.value.firstName">
+            Bitte gib deine Vornamen ein
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field class="form-field">
+          <input formControlName="lastName" placeholder="Gib hier deinen Nachnamen ein" matInput required>
+          <mat-error *ngIf="!registerForm.value.lastName">
+            Bitte gib deine Vornamen ein
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field class="form-field">
+          <input formControlName="email" placeholder="Gib hier deine E-Mail ein" matInput required>
+          <mat-error *ngIf="!registerForm.value.email">
+            Bitte gib deine E-Mail ein
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field class="form-field">
+          <input type="password" formControlName="password" placeholder="Gib hier dein Passwort ein" matInput required [minLength]="8">
+          <mat-error *ngIf="!registerForm.value.password">
+            Bitte gib deine E-Mail ein
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <button class="login-btn" type ="submit"
+              [disabled]="registerForm.value.email === '' || registerForm.value.password === '' || registerForm.value.firstName === ''" mat-button>registrieren
+      </button>
+    </form>
+  </mat-card>
+</div>
+
+<mat-card class="login-tooltip">
+  Du hast noch bereits ein Konto? <a routerLink="/login">Melde dich jetzt an</a>
+</mat-card>
+
+
+
+
+

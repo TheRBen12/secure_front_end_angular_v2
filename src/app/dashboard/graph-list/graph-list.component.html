@@ -1,0 +1,16 @@
+<div class="graph-list">
+  <div class="container">
+
+  </div>
+</div>
+
+<ng-template class="not-empty-dashboard" #notEmptyTempRef>
+  <app-add-graph></app-add-graph>
+</ng-template>
+
+
+
+<div *ngIf="graphs.length <= 0" class="empty-dashboard">
+  <h1>Füge eine neue Umfrage, Doodle oder Quiz hinzu</h1>
+  <app-add-graph></app-add-graph>
+</div>

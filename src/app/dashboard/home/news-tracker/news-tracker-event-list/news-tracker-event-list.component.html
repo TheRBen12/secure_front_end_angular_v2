@@ -1,0 +1,9 @@
+<div class="news-event-list">
+  <app-graph-card *ngFor="let graph of graphs | async;" [graph]="graph" ></app-graph-card>
+</div>
+
+<ng-template #empty news>
+  <div>
+    <h1>{{notifications.emptyNewsTracker}}</h1>
+  </div>
+</ng-template>
