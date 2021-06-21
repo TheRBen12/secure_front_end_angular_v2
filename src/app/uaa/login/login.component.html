@@ -1,0 +1,33 @@
+<div class="login-form">
+  <mat-card class="card">
+    <img class="float-right" src="assets/icons/dashboard/loro_logo.png">
+    <h1><strong>Login</strong></h1>
+    <form [formGroup]="loginForm" class="form">
+      <div>
+        <mat-form-field class="form-field">
+          <input formControlName="email" placeholder="Gib hier deine E-Mail ein" matInput required>
+          <mat-error *ngIf="!loginForm.value.email">
+            Bitte gib deine E-Mail ein
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field class="form-field">
+          <input formControlName="password" placeholder="Gib hier dein Passwort ein" matInput required>
+          <mat-error *ngIf="!loginForm.value.password">
+            Bitte gib deine E-Mail ein
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <button class="login-btn" (click)="submit()" [disabled]="loginForm.value.email === '' || loginForm.value.password === ''" mat-button>Anmelden</button>
+    </form>
+  </mat-card>
+</div>
+
+<mat-card class="register-tooltip">
+  Du hast noch kein Konto? <a routerLink="/signup">Registriere dich jetzt</a>
+</mat-card>
+
+
+
+

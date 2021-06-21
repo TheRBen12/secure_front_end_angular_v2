@@ -1,0 +1,55 @@
+@import "src/styleguide/buttons";
+
+.login-form{
+  margin: 5% auto 0 auto;
+  width: 50%;
+  min-height: 400px;
+}
+
+h1{
+  color: #EEA72E;
+}
+
+.form-field{
+  width: 100%;
+  min-height: 50px;
+  margin-bottom: 16px;
+  font-size: 25px;
+}
+
+button{
+  background-color: $button-background-color;
+  color: white;
+  min-height: 50px;
+  min-width: 100px;
+  align-self: flex-end;
+}
+
+.card{
+  height: 100%;
+}
+h1{
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  font-size: 25px;
+}
+
+img{
+  width: 85px;
+  height: 85px;
+}
+
+.register-tooltip{
+  margin: 2% auto;
+  width: 50%;
+}
+
+
+

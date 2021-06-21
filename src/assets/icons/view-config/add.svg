@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="179.358" height="179.356" viewBox="0 0 179.358 179.356">
+  <defs>
+    <filter id="Pfad_431" x="0" y="0" width="179.358" height="179.356" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Gruppe_1321" data-name="Gruppe 1321" transform="translate(2837.605 67.042)">
+    <g transform="matrix(1, 0, 0, 1, -2837.6, -67.04)" filter="url(#Pfad_431)">
+      <path id="Pfad_431-2" data-name="Pfad 431" d="M754.377,781.553a64.179,64.179,0,1,1-64.18-64.179,64.178,64.178,0,0,1,64.18,64.179" transform="translate(-600.52 -694.87)" fill="#0040ee"/>
+    </g>
+    <path id="Pfad_432" data-name="Pfad 432" d="M705.934,767.82a6.511,6.511,0,0,1-6.5,6.516H683.237v16.179a6.508,6.508,0,1,1-13.016,0V774.336H654.038a6.516,6.516,0,0,1,0-13.032h16.184V745.125a6.508,6.508,0,1,1,13.016,0V761.3H699.43a6.511,6.511,0,0,1,6.5,6.516" transform="translate(-3424.655 -748.184)" fill="#fff"/>
+  </g>
+</svg>

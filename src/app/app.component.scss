@@ -1,0 +1,48 @@
+@import "src/styleguide/buttons";
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.sidenav-content{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+.logout-button{
+  background-color: $button-background-color;
+  color: white;
+}
+
+.example-spacer{
+  flex: 1 1 auto;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+.app-header{
+  position: fixed;
+  left: 30px;
+  top: 45px;
+}
+
+.container{
+  position: relative;
+}
+h5{
+  position: absolute;
+  left: 46px;
+  top: 125px
+}
+a{
+  text-underline: none;
+  color: black;
+}
+
+

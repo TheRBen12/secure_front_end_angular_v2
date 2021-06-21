@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="357.14" height="351.351" viewBox="0 0 357.14 351.351">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="-16" width="357.14" height="351.351" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Komponente_1_1" data-name="Komponente 1 – 1" style="isolation: isolate">
+    <g id="Bildlaufgruppe_1" data-name="Bildlaufgruppe 1" transform="translate(16)" opacity="0.66" clip-path="url(#clip-path)" style="isolation: isolate">
+      <path id="Icon_ionic-ios-add" data-name="Icon ionic-ios-add" d="M320.422,162.766H195.71V30.839c0-12.031-9.3-21.874-20.678-21.874s-20.678,9.843-20.678,21.874V162.766H29.643c-11.373,0-20.678,9.843-20.678,21.874a22.454,22.454,0,0,0,6.074,15.449,20.068,20.068,0,0,0,14.6,6.425H154.355V338.442a22.454,22.454,0,0,0,6.074,15.449,20.068,20.068,0,0,0,14.6,6.425c11.373,0,20.678-9.843,20.678-21.874V206.514H320.422c11.373,0,20.678-9.843,20.678-21.874S331.795,162.766,320.422,162.766Z" transform="translate(-8.965 -8.965)" fill="#f69f0a"/>
+    </g>
+  </g>
+</svg>
